@@ -1,4 +1,4 @@
-# U(nit)Values, or physical values, for Typescript
+# U(nit)Values, or physical values, for `Typescript`
 
 This Angular project began in 2020 as a hobby dive of mine into Angular/Typescript.&nbsp;<sup>**_i**</sup>
 
@@ -6,15 +6,15 @@ It's all about making physical values (like temperature, mass) integrated in dev
 
 **So far it's not an overall solution but rather a draft of a possible framework**&nbsp;&nbsp;<sup>**_b**</sup>
 
-&nbsp;&nbsp;<sub><sup>**_i**</sup>&nbsp;&nbsp;nevertheless i'm since 1990s in IT (from deep backend to far frontend) and for the recent decade my *native* language has been amazing **C#**</sub>\
+&nbsp;&nbsp;<sub><sup>**_i**</sup>&nbsp;&nbsp;nevertheless i'm since 1990s in IT (from deep backend to far frontend), and for the recent decade, my *native* language has been amazing **C#**</sub>\
 &nbsp;&nbsp;<sub><sup>**_b**</sup>&nbsp;&nbsp;a big challenge asking for countless overlapping concepts and tons of well-tempered code</sub>
 
-## How it looks for user
+## How it looks for the user
 
 Just `ng build` is the only library in this project, and `ng serve` is the app. Navigate to **Units**.\
 Or/**and** look at [commented snapshot of that demo](README+/img_aircrafts-commented.jpg)
 
-## How it works for developer
+## How it works for the developer
 
 ### Declaration
 
@@ -83,3 +83,6 @@ Actions can be available through the service.
 [Dev: concepts](README+/_project_concepts.md)\
 [Dev: guidelines](README+/dev_guidelines.md)\
 [Open points](README+/doc_open-points.md)
+
+___________\
+🔚 🌘 <samp>**B**yteshausmeister</samp>
