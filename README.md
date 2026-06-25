@@ -12,7 +12,7 @@ It's all about making physical values (like temperature, mass) integrated in dev
 ## How it looks for the user
 
 Just `ng build` is the only library in this project, and `ng serve` is the app. Navigate to **Units**.\
-Or/**and** look at [commented snapshot of that demo](README+/img_aircrafts-commented.jpg)
+Or/**and** look at [commented snapshot of that demo](README+/img_aircrafts-commented.jpg).
 
 ## How it works for the developer
 
@@ -72,11 +72,11 @@ Actions can be available through the service.
 
 ## Predefined UValues
 
-[Read more](README+/doc_predefined-uvalues.md)
+[Read more](README+/doc_predefined-uvalues.md) **.&thinsp;.&thinsp;.**
 
 ## Units schemes
 
-[Read more](README+/doc_uvalues-schemes.md)
+[Read more](README+/doc_uvalues-schemes.md) **.&thinsp;.&thinsp;.**
 
 ## Further reading for project development
 
