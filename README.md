@@ -84,5 +84,9 @@ Actions can be available through the service.
 [Dev: guidelines](README+/dev_guidelines.md)\
 [Open points](README+/doc_open-points.md)
 
+## P.S.
+
+There's a similar **`C#`**-backed project in the "neighbour" repository &thinsp;&ndash;&thinsp; [**Multifaceted Value**](https://github.com/BYTESHAUS/use-dev/blob/main/README+/parts/MultifacetVal/README.md).
+
 ___________\
 🔚 🌘 <samp>**B**yteshausmeister</samp>
