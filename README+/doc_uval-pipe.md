@@ -21,5 +21,5 @@ For an example of its application look into the markup of
 | locale       | *string* | refer to built-in Angular [decimal pipe](https://angular.io/api/common/DecimalPipe)|
 
 
-&nbsp;&nbsp;<sub><sup>**_c**</sup>&nbsp;&nbsp;obviously no conversion will run if a value is already of the same unit.</sub>\
-&nbsp;&nbsp;<sub><sup>**_e**</sup>&nbsp;&nbsp;is of use when and only when you specify any next optional parameter.</sub>
+&nbsp; &nbsp; <sup><b>_c</b></sup>&nbsp;<samp>obviously no conversion will run if a value is already of the same unit.</samp>\
+&nbsp; &nbsp; <sup>**_e**</sup>&nbsp; <samp>is of use when and only when you specify any next optional parameter.</samp>
