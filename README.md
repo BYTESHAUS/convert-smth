@@ -12,7 +12,7 @@ It's all about making physical values (like temperature, mass) integrated in dev
 ## How it looks for the user
 
 Just `ng build` is the only library in this project, and `ng serve` is the app. Navigate to **Units**.\
-Or/**and** look at [commented snapshot of that demo](README+/img_aircrafts-commented.jpg).
+Or/**and** look at [commented snapshot of that demo](README+/_rsc/snapshots_aircrafts-commented.jpg).
 
 ## How it works for the developer
 
