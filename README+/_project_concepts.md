@@ -1,7 +1,7 @@
 ## Glossary
 
 (Links here refer to code entities)
-+ Domain
++ **Domain**
     + [Unit](../projects/united-values/src/lib/_core/units.ts) - physical grade of measure (e.g. meter) or scale (e.g. Fahrenheit)
     + [Quantified](../projects/united-values/src/lib/_core/quantified.ts/) - based on *Unit*, is a concept of a physical property, which owns *value* and its *unit* 
     + [Measures](../projects/united-values/src/lib/_core/measure.ts/) - particular `Quantified` as *speed*, *volume*, *temperature*.
@@ -11,9 +11,9 @@
         
 &nbsp;&nbsp;<sup>**_a**</sup><sub>&nbsp;&nbsp;intentionally *arithmetic*, not mathematic - [Quora](https://www.quora.com/What-is-difference-between-arithmetic-and-mathematics "What is the difference between Arithmetic and Mathematics?")</sub>
 
-+ Applied
++ **Applied**
     + [UnitValue](../projects/united-values/src/lib/uvalue/_uvalue.ts) (aka *UValue*, *uval*) - derivative of *Quantified*, which adds up operations
-    + [Instances](../projects/united-values/src/lib/uvalue/instances.ts) - of UValues' as `kilogram` or `Fahrenheit`
+    + [Instances](../projects/united-values/src/lib/uvalue/instances.ts) - of _UValues_ as `kilogram` or `Fahrenheit`
     + [Conversion](../projects/united-values/src/lib/uvalue/instances.ts)
     + Presentation
 
