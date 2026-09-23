@@ -1,17 +1,17 @@
-# Development guidelines for this project
+# Development guidelines <sup>for this project</sup>
 
 ## Keep type safety 
 
 Albeit all *quantified* or their *converters*, *presenters* share their respected parent definitions/implementations they must **not ever** intercept.
-E.g. *mass* can't be assigned to, or, compared with *acceleration*, as well *speed* - to/with *length*
+E.g., *mass* can't be assigned to, or, compared with *acceleration*, as well *speed* &ndash; to/with *length*
 A converter can't compare different types of *quantified*.
 
 ## Interfaces
 
-Surprise for Java/C# developers, that interfaces in TS aren't interfaces. They are rather a join of structs and interfaces. And this is a good part - you spare at least one declaration.
-Thus prefix interfaces with `I` provided it's either a set of functions or a pure definition&nbsp;&nbsp;<sup>**_i**</sup>
+Surprise for Java/C# developers, that interfaces in TS aren't interfaces. They are rather a join of structs and interfaces. And this is a good part &ndash; you spare at least one declaration.
+Thus prefix interfaces with `I` provided it's either a set of functions or a pure definition&nbsp;&nbsp;<sup>ℹ️</sup>
 
-<sup>**_i**</sup><sub>&nbsp;&nbsp;rule of thumb - only abstract classes or other interfaces could be ancestors or combiners, and it's not for object instantiation (but practical as an argument or return value type)</sub>
+<sup>ℹ️</sup><sub>&nbsp;&nbsp;rule of thumb &ndash; only abstract classes or other interfaces could be ancestors or combiners, and it's not for object instantiation (but practical as an argument or return value type)</sub>
 
 ## Public API
 
@@ -20,7 +20,7 @@ The library doesn't expose `Quantified` and `UValue` to users, who shall use *Me
 ## Prohibit unit casting
 
 `Quantified` is sealed by means of its readonly *Unit*. Otherwise, it was a big open door for bugs (e.g. accidental cast/assign of kilogram to ton).
-//ToDo: tests
+// ToDo: tests
 
 ## Avoid any cross-measure ops
 
@@ -68,4 +68,5 @@ const vcbl = ratherCoolButLongMethodName
 vcbl(a); vcbl(bbb); vcbl(c3)
 // ....
 ```    
-
+___________\
+🔚
